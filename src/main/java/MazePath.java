@@ -5,6 +5,7 @@ public class MazePath {
 
     public static void main(String[] args) {
         System.out.println(MazePath.getMazePath(0,0,2,2));
+        
     }
     public static  List<String>getMazePath(int sr, int sc, int er, int ec){
         List<String>returnPath= new ArrayList<>();
